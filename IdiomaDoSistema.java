@@ -2,7 +2,7 @@ package CursoEmVideo;
 
 import java.util.Locale;
 
-public class Idioma {
+public class IdiomaDoSistema {
 
 	public static void main(String[] args) {
 		Locale loc = Locale.getDefault();
