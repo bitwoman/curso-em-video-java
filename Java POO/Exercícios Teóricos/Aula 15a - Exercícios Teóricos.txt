@@ -1,0 +1,116 @@
+Questão 01: "de inclusão", "paramétrico", "sobrecarga" e "sobreposição" são quatro tipos de:
+
+a: projetos orientados a objetos. (Errada)
+b: encapsulamento. (Errada)
+c: polimorfismo. (Correta)
+d: herança. (Errada)
+
+Questão 02: Quando se utiliza, dentro de uma mesma classe, um mesmo nome de método para muitos métodos diferentes, estamos utilizando o conceito de:
+
+a: sobrecarga. (Correta)
+b: sobreposição. (Errada)
+c: herança. (Errada)
+d: polimorfismo paramétrico. (Errada)
+
+Questão 03: De acordo com os conceitos da POO, relacione as colunas:
+
+(1) Classe Abstrata
+(2) Classe Final 
+(3) Método Abstrato
+(4) Método Final
+
+(4) não pode ser sobrescrito.
+(1) nunca será instanciado.
+(2) não pode ser superclasse.
+(3) deve ter implementação na subclasse.
+
+a: 3-1-4-2 (Errada)
+b: 4-2-1-3 (Errada)
+c: 4-1-2-3 (Correta)
+d: 4-1-3-2 (Errada)
+
+Questão 04: Informe se é falso ou verdadeiro o que se informa sobre conceitos de POO.
+
+(V) A especialização permite que você remova da classe filha comportamento e atributos.
+(F) A superclasse herda os atributos e comportamentos da subclasse.
+(V) Os métodos de acesso privado não são herdados pela filha.
+(F) Protegido é o nível de acesso onde se restringe o acesso à classe atual e às suas filhas.
+
+a: F-F-V-F (Errada)
+b: V-V-V-V (Errada)
+c: V-V-F-V (Errada)
+d: V-F-V-F (Correta)
+
+Questão 05: O polimorfismo permite que um único ___________ expresse muitos comportamentos diferentes. Um tipo de polimorfismo é __________, que permite que possa ser declarado o mesmo __________ várias vezes, sendo que cada declaração difere simplesmente no (a) ___________ e ___________ de argumentos.
+
+a: tipo - método - nome - sobrecarga - número. (Errada)
+b: nome - sobrecarga - número - método - nome. (Correta)
+c: tipo - sobrecarga - número - método - nome. (Errada)
+d: método - nome - tipo - sobrecarga - número. (Errada)
+
+Questão 06: Faz parte da assinatura de um método:
+1: Seu nome. (Correta)
+2: A quantidade de parâmetros. (Correta)
+3: A quantidade de linhas de código. (Errada)
+4: A posição do método na classe. (Errada)
+5: Os tipos dos seus parâmetros. (Correta)
+6: O tipo de retorno do método. (Errada)
+
+a: 1-2-3 (Errada)
+b: 1-3-4-6 (Errada)
+c: 1-2-3-5 (Errada)
+d: 1-2-5 (Correta)
+
+Questão 07: Considerando a declaração de método a seguir:
+
+Método tarefa(a,b: inteiro): Real
+
+Qual seria a única linha inválida para realizar a sobrecarga desse método dentro da mesma classe?
+
+a: Metodo tarefa(): Inteiro (Correta)
+b: Metodo tarefa(x: Inteiro, y:Real): Logico (Correta)
+c: Metodo tarefa(x,y: Inteiro): Inteiro (Inválida)
+d: Metodo tarefa(a,b: Real): Real (Correta)
+
+Questão 08: Considerando a declaração de método a seguir:
+
+Método tarefa(a,b: inteiro): Real
+
+Qual seria a única linha válida para realizar a sobreposição desse método dentro de outra classe?
+
+a: @Sobrepor
+	Metodo tarefa(x,y: Inteiro): Logico (Correta)
+
+b: Metodo tarefa(x: Inteiro, y: Inteiro): Real (Errada)
+
+c: @Sobrepor
+	Metodo tarefa(a,b: Real): Inteiro (Errada)
+
+d: Metodo tarefa(): Real (Errada)
+
+Questão 09: Considerando as declarações a seguir:
+
+Classe abstrata A
+Classe final B
+Classe C extende X
+
+Qual seria a única linha inválida para declarar uma Classe D?
+
+a: Classe D estende A (Válida)
+b: Classe D estende B (Inválida) (Resposta correta)
+c: Classe D estende C (Válida)
+d: Classe D estende X (Válida)
+ 
+Questão 10: Considerando os seguintes métodos sobrecarregados:
+
+Metodo x()
+Metodo x(a,b: Inteiro)
+Metodo x(x:Real)
+Metodo x(n:Caractere, m: Inteiro)
+
+Qual seria a única linha inválida para realizar a chamada do método x()?
+
+a: x() (Válida)
+b: x(3,7) (Válida)   
+c: x(3.7) (Válida)
+d: x("Teste") (Inválida)  

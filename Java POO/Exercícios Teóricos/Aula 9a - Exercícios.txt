@@ -1,0 +1,151 @@
+Questão 01: Uma casa está para uma planta arquitetônica assim como um objeto está para: 
+
+a: um método;
+b: uma propriedade;
+c: uma classe; (Resposta correta - uma casa é uma instância de planta arquitetônica)
+d: um atributo.
+
+Questão 02: A programação orientada à objetos se preocupa em produzir softwares que tenham as seguintes características:
+
+a: natural, confiável, reutilizável, manutenível, extensível e oportuno; (Resposta correta)
+b: natural, mensurável, manutenível, instantâneo, acessível e confiável; 
+c: confiável, reutilizável, extensível, mensurável, acessível e fácil de usar;
+d: extensível, natural, mensurável, reutilizável, instantâneo e simples. 
+
+reutilizável, manutenível, extensível, 
+
+C confiável
+O portuno
+M anutenível
+E xtensível
+R eutilizável
+N atural
+
+ADA
+
+Questão 03: Assinale a alternativa incorreta com relação ao conceito de classe e objeto em Programação Orientada a Objetos.
+
+a: Uma classe é uma instância de um objeto. (Resposta incorreta)
+b: Um objeto é uma construção de software que encapsula estado e comportamento. (Resposta correta)
+c: Uma classe define os atributos e comportamentos compartilhados por um tipo de objeto. (Resposta correta)
+d: Em uma linguagem POO pura, tudo é um objeto, desde os tipos mais básicos. (Resposta correta)
+
+Questão 04: Correlacione a coluna da esquerda com a da direita e assinale a alternativa que contém a sequência.
+
+1: Atributo
+2: Classe
+3: Comportamento
+4: Domínio
+5: Objeto
+
+(3) ação executada por um objeto.
+(2) define os atributos e comportamentos comuns.
+(1) características de uma classe que é visível.
+(5) construção de software que encapsula estado e comportamento. 
+(4) espaço onde o problema reside.
+
+a: 3,2,4,5,1
+b: 3,2,1,5,4 (Resposta correta)
+c: 2,3,1,5,4
+d: 2,4,3,1,5
+
+Questão 05: Assinale a alternativa incorreta sobre a definição de termos usados em POO:
+
+a: Uma variável interna é um valor mantido dentro do objeto. (Resposta correta)
+b: Atributos são características de uma classe visíveis externamente. (Resposta correta)
+c: Comportamentos (são funcionalidades internas) são as características de uma classe invísiveis externamente. (Resposta incorreta)
+d: O estado de um objeto é o significado combinado das variáveis internas do objeto. (Resposta correta)
+
+Questão 06: Correlacione a coluna da esquerda com a da direita e assinale a alternativa que contém a sequência.
+
+(1) construtor
+(2) acessor
+(3) mutante
+(4) tipos
+
+
+(2) métodos que dão acesso as dados internos.
+(4) define as diferentes espécies de valores que podem usados.
+(3) métodos que permitem que se altere o estado de um objeto.
+(1) métodos usados para inicializar objetos durante a instanciação.
+
+
+a: 1,2,3,4 
+b: 2,4,1,3
+c: 2,4,3,1 (Resposta correta)
+d: 4,2,3,1
+
+
+Questão 07: Quais são os três pilares da Programação Orienta a Objetos?
+a: herança, polimorfismo, instância. X
+b: herança, polimorfismo, metodologia. X
+c: encapsulamento, herança e polimorfismo. (Resposta correta)
+d: encapsulamento, polimorfismo e metodologia.X
+
+Questão 08: Correlacione a coluna da esquerda com a da direita e assinale a alternativa que contém a sequência.
+
+(1) Classe
+(2) Interface
+(3) Construtor
+(4) Objeto
+
+
+(2) define o que uma entidade pode fazer com o objeto.
+(4) instanciação de uma classe.
+(1) define os atributos e comportamentos compartilhados.
+(3) utilizado para inicializar objetos.
+
+a: 1,2,4,3
+b: 1,4,2,3
+c: 2,3,1,4
+d: 2,4,1,3 (Resposta correta)
+
+Questão 09: A maioria das linguagens orientadas a objetos suporta quais níveis de acesso?
+
+a: secreto, público, primário. x
+b: público, protegido e privado. (Resposta correta)
+c: público, protegido e primário. x
+d: público, privado e secundário. x
+
+Questão 10: No contexto dos níveis de acesso, selecione a alternativa que contém o nível que apenas garante o acesso para aquele objeto e suas subclasses.
+
+a: público. x
+b: protegido. (Resposta correta)
+c: privado. x
+d: oculto. x
+
+Questão 11: A proteção de atributos e operações das classes, fazendo com que estas se comuniquem com o meio externo por meio de suas interfaces, define o conceito de:
+
+a: polimorfismo.
+b: encapsulamento. (Resposta correta)
+c: herança.
+d: agregação.
+
+Questão 12: Quando se utiliza o conceito de encapsulamento da POO, enquanto a (implementação) define os detalhes internos do componente, a (interface) lista os serviços fornecidos por ele.
+
+a: interface - implementação.
+b: classe - implementação.
+c: interface - classe.
+d: implementação - interface. (Resposta correta)
+
+Questão 13: (encapsulamento) é a característica da POO que permite separar o programa em várias partes menores e independentes. Cada parte possui sua implementação isolada e realiza trabalho de forma autônoma. Com essa característica é possível ocultar os detalhes internos de cada parte através de uma interface.
+
+a: herança.
+b: hierarquia.
+c: polimorfismo.
+d: encapsulamento. (Resposta correta)
+
+Questão 14: Qual é o conceito de POO que significa representar uma entidade incluindo apenas seus atributos mais relevantes?
+
+
+a: encapsulamento.
+b: polimorfismo. 
+c: herança.
+d: abstração. (Resposta correta)
+
+Questao 15: Com relação aos conceitos de POO, assinale a opção INCORRETA.
+
+a: classes são tipos abstratos de dados. (Certa)
+b: objetos são instâncias de uma classe. (Certa)
+c: subclasse é uma classe definida por meio de outra classe. (Certa)
+d: atributos são subprogramas que definem operações em objetos de uma classe. (Errado)

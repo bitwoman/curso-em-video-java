@@ -1,0 +1,19 @@
+Agregação: 
+
+exemplo: lutador participa de uma luta 
+
+lutador x luta (agregação): o todo existe sem a parte;
+
+lutador pode participar de no mínimo 0 e N lutas= 0..*;
+luta pode ter N lutadores;
+
+multiplicidade == cardinalidade
+
+tipo abstrato:
+exemplo: private Lutador desafiado;
+	 private Lutador desafiante;
+
+regras = - só pode ser marcada a luta entre lutadores da mesma categoria;
+	 - desafiado e desafiante devem ser lutadores diferentes;
+	 - a luta só pode acontecer se estiver aprovada;
+	 - só pode ter como resultado a vitória de um dos lutadores ou o 	   empate;
